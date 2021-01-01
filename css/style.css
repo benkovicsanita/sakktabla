@@ -2,18 +2,51 @@
 body{
     background-image: url(../img/sakk\ hatter.jpg);
     background-size: cover;
+    
+}
+
+.also-szegely {
+    border-bottom: 10px solid #e0be5c;
+}
+
+.felso-szegely {
+    border-top: 10px solid #e0be5c;
+}
+
+.jobb-szegely {
+    border-right: 10px solid #e0be5c;
+    width: 25px;
+}
+
+.bal-szegely {
+    border-left: 10px solid  #e0be5c;
+    width: 25px;
+
+}
+
+h1{
+    text-align: center;
+    font-family: monotype corsiva;
+    font-size: 100px;
+    margin: 50px;
 }
 
 .sarga{
-    background: yellow;
+    background:#f2df9c;
 }
 
 .barna{
-    background: brown;
+    background: #8f2a0e;
   }
 
 table{
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline-style: solid;
+    outline-color:#76250d;
+    outline-width: 10px; */
+    
 }
 tfoot th{
     transform: rotate(-180deg);
@@ -22,15 +55,17 @@ tfoot th{
 
 .forditva{
     transform: rotate(-180deg);
+   
 }
 
 th{
     text-align: center;
     
+    
+       
 }
 
 td{
-    border: 1px solid black;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
 }
