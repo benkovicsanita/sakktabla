@@ -1,0 +1,36 @@
+
+body{
+    background-image: url(../img/sakk\ hatter.jpg);
+    background-size: cover;
+}
+
+.sarga{
+    background: yellow;
+}
+
+.barna{
+    background: brown;
+  }
+
+table{
+    border-collapse: collapse;
+}
+tfoot th{
+    transform: rotate(-180deg);
+}
+
+
+.forditva{
+    transform: rotate(-180deg);
+}
+
+th{
+    text-align: center;
+    
+}
+
+td{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
