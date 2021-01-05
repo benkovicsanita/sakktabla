@@ -3,6 +3,7 @@ body{
     background-image: url(../img/sakk\ hatter.jpg);
     background-size: cover;
     
+    
 }
 
 .also-szegely {
@@ -43,11 +44,17 @@ table{
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    /* outline-style: solid;
-    outline-color:#76250d;
-    outline-width: 10px; */
-    
+        
 }
+
+.tabla-hatter {
+    background: url(../img/fa\ hatter.jpg);
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 tfoot th{
     transform: rotate(-180deg);
 }
@@ -60,6 +67,7 @@ tfoot th{
 
 th{
     text-align: center;
+    color: #f2df9c;
     
     
        
