@@ -48,11 +48,54 @@ table{
 }
 
 .tabla-hatter {
-    background: url(../img/fa\ hatter.jpg);
-    width: 800px;
-    height: 800px;
+    background: url(../img/fa\ hatter\ szurke.jpg);
+    width: 880px;
+    height: 880px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fekete-bastya { 
+    background-image: url(../img/fekete\ bastya.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.fekete-lo {
+    background-image: url(../img/fekete\ lo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+}
+
+.fekete-futo {
+    background-image: url(../img/fekete\ futo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#fekete-kiraly {
+    background-image: url(../img/fekete\ kiraly.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#fekete-kiralyno {
+    background-image: url(../img/fekete\ kiralyno.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.fekete-paraszt {
+    background-image: url(../img/fekete\ paraszt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
 tfoot th{
@@ -68,6 +111,8 @@ tfoot th{
 th{
     text-align: center;
     color: #f2df9c;
+    height: 80px;
+    width: 80px;
     
     
        
