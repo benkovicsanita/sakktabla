@@ -17,11 +17,14 @@ body{
 .jobb-szegely {
     border-right: 10px solid #e0be5c;
     width: 25px;
+    text-align: end;
+  
 }
 
 .bal-szegely {
     border-left: 10px solid  #e0be5c;
-    width: 25px;
+    min-width: 25px;
+    text-align: end;
 
 }
 
@@ -77,13 +80,6 @@ table{
     background-size: 50%;
 }
 
-#fekete-kiraly {
-    background-image: url(../img/fekete\ kiraly.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
-}
-
 #fekete-kiralyno {
     background-image: url(../img/fekete\ kiralyno.png);
     background-position: center;
@@ -91,8 +87,57 @@ table{
     background-size: 50%;
 }
 
+#fekete-kiraly {
+    background-image: url(../img/fekete\ kiraly.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
 .fekete-paraszt {
     background-image: url(../img/fekete\ paraszt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.feher-paraszt {
+    background-image: url(../img/feher\ paraszt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.feher-bastya {
+    background-image: url(../img/feher\ bastya.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.feher-lo {
+    background-image: url(../img/feher\ lo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.feher-futo {
+    background-image: url(../img/feher\ futo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#feher-kiralyno {
+    background-image: url(../img/feher\ kiralyno.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#feher-kiraly {
+    background-image: url(../img/feher\ kiraly.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -109,7 +154,8 @@ tfoot th{
 }
 
 th{
-    text-align: center;
+    /* text-align: center; */
+    vertical-align: bottom;
     color: #f2df9c;
     height: 80px;
     width: 80px;
